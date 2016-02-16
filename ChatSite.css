@@ -1,0 +1,68 @@
+/* CSS declarations go here */
+h2{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: 'Century Gothic'
+}
+
+#title{
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    text-align: center;
+    font-family: 'Century Gothic';
+    color: darkturquoise;
+}
+
+#msgTitle{
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    text-align: center;
+    font-family: 'Century Gothic';
+    color: darkturquoise;
+}
+
+#mainDiv{
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    text-align: center;
+    border-style: solid;
+    border-width: thick;
+    border-color: darkturquoise;
+    width: 80%;
+    height: 500px;
+}
+
+#msgsDiv{
+    margin-left: auto;
+    margin-right: auto;
+    align-content: left;
+    text-align: left;
+    border-style: solid;
+    border-width: thick;
+    border-color: darkturquoise;
+    width: 98%;
+    height: 80%;
+    overflow-y: auto;
+}
+
+#sendForm{
+    margin-right: auto;
+    margin-left: auto;
+    align-content: center;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.msgP{
+    color: darkturquoise;
+    text-indent: 20px;
+}
+
+#sendDiv{
+    margin-bottom: 5%;
+}

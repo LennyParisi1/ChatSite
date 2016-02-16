@@ -1,0 +1,35 @@
+<head>
+    <title>ChatSite</title>
+</head>
+
+<body>
+    <div id="title"><h1>Chat Site</h1></div>
+    <br>
+    <div id="mainDiv">
+        <div id="msgTitle"><h2>Messages</h2></div>
+        <div id="msgsDiv">
+        {{#each messages}}
+            {{> message}}
+        {{/each}}
+        </div>
+        <!-- Figure out a way to place the send message bar at the bottom of the div and make it stay there-->
+        {{> sendMessage}}
+    </div>
+</body>
+
+<template name="message">
+    <p class="msgP">
+        <strong>
+            {{date}} : {{name}}: 
+        </strong>
+        {{message}}
+        <button id="remove">Erase</button>
+    </p>
+</template>
+
+<template name="sendMessage">
+    <form id="sendForm">
+        <input type="text" name="message" id="message">
+        <input type="submit" name="sendMessage">
+    </form>
+</template>
