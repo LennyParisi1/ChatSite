@@ -49,7 +49,6 @@ if (Meteor.isServer) {
     
     Meteor.methods({
         "insertData":function(date, name, message){
-            console.log("inserting");
             Messages.insert({
                 date: date,
                 name: name,
@@ -57,7 +56,6 @@ if (Meteor.isServer) {
             });    
         },
         "removeData":function(id){
-            console.log("deleting");
             Messages.remove(id); 
         }
     });
